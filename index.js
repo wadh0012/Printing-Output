@@ -19,6 +19,11 @@ let value;
  value += '(a %= b) = ' + (a%=b) + "\n";
  value += '(a == b) = ' + (a==b) + "\n";
  value += '(a != b) = ' + (a!=b) + "\n";
+ value += '(a > b) = ' + (a>b) + "\n";
+ value += '(a < b) = ' + (a<b) + "\n";
+ value += '(a < b) = ' + (a<b) + "\n";
+value += '(!a && !c) = ' + (!a && !c) + "\n";
+value += '(!a || !c) = ' + (!a || !c) + "\n";
 
 alert(value);
 
